@@ -1,0 +1,70 @@
+{% extends 'add/add.html' %}
+
+{% block manage %}
+  <h2>添加服务监控</h2><br />
+ <form class="form-horizontal" role="form" method="POST" action="/add/hosts">
+            <table>
+              <thead>
+                <tr>
+                  <th width="100">选择</th>
+                  <th>资产号</th>
+                  <th>公网IP</th>
+                  <th>内网IP</th>
+                  <th>机房</th>
+                  <th>业务</th>
+                  <th>使用部门</th>
+                  <th>系统类型</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for line in data %}
+                <tr>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" name="{{ line.asset_no }}">
+                      </label>
+                    </div>
+                  </td>
+                  <td>{{ line.asset_no }}</td>
+                  <td>{{ line.public_ip }}</td>
+                  <td>{{ line.private_ip }}</td>
+                  <td>{{ line.idc_name }}</td>
+                  <td>{{ line.service_name }}</td>
+                  <td>{{ line.use_dept_name }}</td>
+                  <td>{{ line.ostype }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          <div>
+          </br>
+          <p>以下必须选择:</p>
+                              选择机房:<select name="idc">
+                          <option value='' selected="selected">请选择</option>
+                        {% for x in idc %}
+                          <option value='{{ x.id }}'>{{ x.idc_name }}</option>
+                        {% endfor %}
+                     </select>
+
+            &nbsp;&nbsp;&nbsp;选择业务:<select name="service">
+                          <option value='' selected="selected">请选择</option>
+                        {% for s in service %}
+                          <option value='{{ s.id }}'>{{ s.service_name }}</option>
+                        {% endfor %}
+                     </select>
+
+            &nbsp;&nbsp;&nbsp;选择主机组:<select name="group">
+                          <option value='' selected="selected">请选择</option>
+                        {% for g in group %}
+                          <option value='{{ g.id }}'>{{ g.group_name }}</option>
+                        {% endfor %}
+                     </select>
+
+            </br></br>
+            <button type="submit" class="btn btn-default">提交</button>
+          </div>
+        </form>
+
+{% endblock %}
+

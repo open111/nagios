@@ -1,0 +1,7 @@
+{% extends 'manager/manager.html' %}
+
+    {% block manage %}
+     {% for l in log %}
+         <p class="text-muted">用户:{{ l.oper_user }} 主机信息:{{ l.oper_log }} 时间:{{ l.oper_time|date:"Y-m-d H:i:s" }} 监控项:{{l.oper_service}} 动作:{{l.oper_type}}</p>
+     {% endfor %}
+    {% endblock %}

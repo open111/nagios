@@ -1,0 +1,894 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 09, 2016 - 09:49:05
+Django version 1.7.7, using settings 'nagios.settings'
+Starting development server at http://10.3.8.32:8001/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 09, 2016 - 09:49:13
+Django version 1.7.7, using settings 'nagios.settings'
+Starting development server at http://10.3.8.32:8001/
+Quit the server with CONTROL-C.
+<WSGIRequest
+path:/add/hosts,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {}>,
+COOKIES:{'sessionid': 'uqzro39q4ob1avqiumqx4p81v0scgvtx'},
+META:{'BASH_FUNC_module()': '() {  eval `/usr/bin/modulecmd bash $*`\n}',
+ 'CFLAG': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CONTENT_LENGTH': '',
+ 'CONTENT_TYPE': 'text/plain',
+ 'CPPFLAGS': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CVS_RSH': 'ssh',
+ 'C_INCLUDE': ':/opt/ourpalm/apps/zeromq/include',
+ 'DJANGO_SETTINGS_MODULE': 'nagios.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'G_BROKEN_FILENAMES': '1',
+ 'HISTCONTROL': 'ignoredups',
+ 'HISTSIZE': '1000',
+ 'HOME': '/root',
+ 'HOSTNAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, sdch',
+ 'HTTP_ACCEPT_LANGUAGE': 'zh-CN,zh;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=uqzro39q4ob1avqiumqx4p81v0scgvtx',
+ 'HTTP_HOST': '10.3.8.32:8001',
+ 'HTTP_REFERER': 'http://10.3.8.32:8001/add/hosts',
+ 'HTTP_UPGRADE_INSECURE_REQUESTS': '1',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36',
+ 'JAVA_HOME': '/usr/java/default',
+ 'LANG': 'en_US.UTF-8',
+ 'LD_LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LESSOPEN': '|/usr/bin/lesspipe.sh %s',
+ 'LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LOADEDMODULES': '',
+ 'LOGNAME': 'root',
+ 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:',
+ 'MAIL': '/var/spool/mail/root',
+ 'MODULEPATH': '/usr/share/Modules/modulefiles:/etc/modulefiles',
+ 'MODULESHOME': '/usr/share/Modules',
+ 'OLDPWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services',
+ 'PATH': '/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/dell/srvadmin/bin:/opt/dell/srvadmin/sbin:/usr/java/default/bin:/root/bin',
+ 'PATH_INFO': u'/add/hosts',
+ 'PWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services/add',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '172.16.108.2',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'GET',
+ 'RUN_MAIN': 'true',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'SERVER_PORT': '8001',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.9',
+ 'SHELL': '/bin/bash',
+ 'SHLVL': '1',
+ 'SSH_AUTH_SOCK': '/tmp/ssh-xjagW43228/agent.43228',
+ 'SSH_CLIENT': '113.31.91.130 62682 22',
+ 'SSH_CONNECTION': '113.31.91.130 62682 223.202.94.83 22',
+ 'SSH_TTY': '/dev/pts/0',
+ 'TERM': 'linux',
+ 'TZ': 'UTC',
+ 'USER': 'root',
+ '_': '[09/Sep/2016 09:49:22] "GET /add/hosts HTTP/1.1" 200 20012
+[09/Sep/2016 09:49:22] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[09/Sep/2016 09:49:22] "GET /static/css/non-responsive.css HTTP/1.1" 304 0
+[09/Sep/2016 09:49:22] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[09/Sep/2016 09:49:22] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[09/Sep/2016 09:49:22] "GET /static/js/delete.js HTTP/1.1" 304 0
+/usr/bin/nohup',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7fca15a6d1e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7fca0a4dfdb8>,
+ 'wsgi.input': <socket._fileobject object at 0x7fca08b06450>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+<WSGIRequest
+path:/add/hosts,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'hardware': [u'no'], u'RENT-ALSG-003': [u'on'], u'group': [u'35'], u'idc': [u'39'], u'service': [u'69']}>,
+COOKIES:{'sessionid': 'uqzro39q4ob1avqiumqx4p81v0scgvtx'},
+META:{'BASH_FUNC_module()': '() {  eval `/usr/bin/modulecmd bash $*`\n}',
+ 'CFLAG': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CONTENT_LENGTH': '55',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ 'CPPFLAGS': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CVS_RSH': 'ssh',
+ 'C_INCLUDE': ':/opt/ourpalm/apps/zeromq/include',
+ 'DJANGO_SETTINGS_MODULE': 'nagios.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'G_BROKEN_FILENAMES': '1',
+ 'HISTCONTROL': 'ignoredups',
+ 'HISTSIZE': '1000',
+ 'HOME': '/root',
+ 'HOSTNAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'zh-CN,zh;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=uqzro39q4ob1avqiumqx4p81v0scgvtx',
+ 'HTTP_HOST': '10.3.8.32:8001',
+ 'HTTP_ORIGIN': 'http://10.3.8.32:8001',
+ 'HTTP_REFERER': 'http://10.3.8.32:8001/add/hosts',
+ 'HTTP_UPGRADE_INSECURE_REQUESTS': '1',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36',
+ 'JAVA_HOME': '/usr/java/default',
+ 'LANG': 'en_US.UTF-8',
+ 'LD_LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LESSOPEN': '|/usr/bin/lesspipe.sh %s',
+ 'LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LOADEDMODULES': '',
+ 'LOGNAME': 'root',
+ 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:',
+ 'MAIL': '/var/spool/mail/root',
+ 'MODULEPATH': '/usr/share/Modules/modulefiles:/etc/modulefiles',
+ 'MODULESHOME': '/usr/share/Modules',
+ 'OLDPWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services',
+ 'PATH': '/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/dell/srvadmin/bin:/opt/dell/srvadmin/sbin:/usr/java/default/bin:/root/bin',
+ 'PATH_INFO': u'/add/hosts',
+ 'PWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services/add',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '172.16.108.2',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'RUN_MAIN': 'true',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'SERVER_PORT': '8001',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.9',
+[09/Sep/2016 09:49:39] "POST /add/hosts HTTP/1.1" 200 19392
+[09/Sep/2016 09:51:30] "GET /adminweb/ HTTP/1.1" 200 5880
+[09/Sep/2016 09:51:32] "GET /adminweb/idc/ HTTP/1.1" 200 8840
+[09/Sep/2016 09:51:32] "GET /adminjsi18n/ HTTP/1.1" 200 2372
+[09/Sep/2016 09:51:35] "GET /adminweb/idc/15/ HTTP/1.1" 200 5166
+[09/Sep/2016 09:51:36] "GET /adminjsi18n/ HTTP/1.1" 200 2372
+ 'SHELL': '/bin/bash',
+ 'SHLVL': '1',
+ 'SSH_AUTH_SOCK': '/tmp/ssh-xjagW43228/agent.43228',
+ 'SSH_CLIENT': '113.31.91.130 62682 22',
+ 'SSH_CONNECTION': '113.31.91.130 62682 223.202.94.83 22',
+ 'SSH_TTY': '/dev/pts/0',
+ 'TERM': 'linux',
+ 'TZ': 'UTC',
+ 'USER': 'root',
+ '_': '/usr/bin/nohup',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7fca15a6d1e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7fca0a4dfdb8>,
+ 'wsgi.input': <socket._fileobject object at 0x7fca03d99ed0>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139_load.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139_cpu.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139_check_alldisk.cfg
+[09/Sep/2016 10:15:32] "GET /delete/batch HTTP/1.1" 200 2747
+[09/Sep/2016 10:15:32] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[09/Sep/2016 10:15:32] "GET /static/css/non-responsive.css HTTP/1.1" 304 0
+[09/Sep/2016 10:15:32] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[09/Sep/2016 10:15:32] "GET /static/js/delete.js HTTP/1.1" 304 0
+[09/Sep/2016 10:15:32] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[09/Sep/2016 10:15:48] "POST /delete/batch HTTP/1.1" 200 2747
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 09, 2016 - 10:15:28
+Django version 1.7.7, using settings 'nagios.settings'
+Starting development server at http://10.3.8.32:8001/
+Quit the server with CONTROL-C.
+<QueryDict: {u'ip': [u'47.88.168.43\r\n47.88.229.18\r\n47.88.155.139\r\n47.88.223.30']}>
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.168.43.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.168.43_check_alldisk.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.168.43_load.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.168.43_cpu.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.229.18.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.229.18_check_alldisk.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.229.18_load.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.229.18_cpu.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139_check_alldisk.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139_load.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139_cpu.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.223.30.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.223.30_check_alldisk.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.223.30_load.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.223.30_cpu.cfg
+<WSGIRequest
+path:/add/hosts,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {}>,
+COOKIES:{'sessionid': 'uqzro39q4ob1avqiumqx4p81v0scgvtx'},
+META:{'BASH_FUNC_module()': '() {  eval `/usr/bin/modulecmd bash $*`\n}',
+ 'CFLAG': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CONTENT_LENGTH': '',
+ 'CONTENT_TYPE': 'text/plain',
+ 'CPPFLAGS': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CVS_RSH': 'ssh',
+ 'C_INCLUDE': ':/opt/ourpalm/apps/zeromq/include',
+ 'DJANGO_SETTINGS_MODULE': 'nagios.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'G_BROKEN_FILENAMES': '1',
+ 'HISTCONTROL': 'ignoredups',
+ 'HISTSIZE': '1000',
+ 'HOME': '/root',
+ 'HOSTNAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, sdch',
+ 'HTTP_ACCEPT_LANGUAGE': 'zh-CN,zh;q=0.8',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=uqzro39q4ob1avqiumqx4p81v0scgvtx',
+ 'HTTP_HOST': '10.3.8.32:8001',
+ 'HTTP_REFERER': 'http://10.3.8.32:8001/delete/batch',
+ 'HTTP_UPGRADE_INSECURE_REQUESTS': '1',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36',
+ 'JAVA_HOME': '/usr/java/default',
+ 'LANG': 'en_US.UTF-8',
+ 'LD_LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LESSOPEN': '|/usr/bin/lesspipe.sh %s',
+ 'LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LOADEDMODULES': '',
+ 'LOGNAME': 'root',
+ 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41[09/Sep/2016 10:15:59] "GET /add/hosts HTTP/1.1" 200 21252
+:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:',
+ 'MAIL': '/var/spool/mail/root',
+ 'MODULEPATH': '/usr/share/Modules/modulefiles:/etc/modulefiles',
+ 'MODULESHOME': '/usr/share/Modules',
+ 'OLDPWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services',
+ 'PATH': '/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/dell/srvadmin/bin:/opt/dell/srvadmin/sbin:/usr/java/default/bin:/root/bin',
+ 'PATH_INFO': u'/add/hosts',
+ 'PWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services/add',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '172.16.108.2',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'GET',
+ 'RUN_MAIN': 'true',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'SERVER_PORT': '8001',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.9',
+ 'SHELL': '/bin/bash',
+ 'SHLVL': '1',
+ 'SSH_AUTH_SOCK': '/tmp/ssh-xjagW43228/agent.43228',
+ 'SSH_CLIENT': '113.31.91.130 62682 22',
+ 'SSH_CONNECTION': '113.31.91.130 62682 223.202.94.83 22',
+ 'SSH_TTY': '/dev/pts/0',
+ 'TERM': 'linux',
+ 'TZ': 'UTC',
+ 'USER': 'root',
+ '_': '/usr/bin/nohup',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7f1d2ca221e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7f1d21494db8>,
+ 'wsgi.input': <socket._fileobject object at 0x7f1d1ed1ead0>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+<WSGIRequest
+path:/add/hosts,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'RENT-ALSG-001': [u'on'], u'hardware': [u'no'], u'group': [u'35'], u'idc': [u'39'], u'service': [u'69']}>,
+COOKIES:{'sessionid': 'uqzro39q4ob1avqiumqx4p81v0scgvtx'},
+META:{'BASH_FUNC_module()': '() {  eval `/usr/bin/modulecmd bash $*`\n}',
+ 'CFLAG': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CONTENT_LENGTH': '55',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ 'CPPFLAGS': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CVS_RSH': 'ssh',
+ 'C_INCLUDE': ':/opt/ourpalm/apps/zeromq/include',
+ 'DJANGO_SETTINGS_MODULE': 'nagios.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'G_BROKEN_FILENAMES': '1',
+ 'HISTCONTROL': 'ignoredups',
+ 'HISTSIZE': '1000',
+ 'HOME': '/root',
+ 'HOSTNAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'zh-CN,zh;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=uqzro39q4ob1avqiumqx4p81v0scgvtx',
+ 'HTTP_HOST': '10.3.8.32:8001',
+ 'HTTP_ORIGIN': 'http://10.3.8.32:8001',
+ 'HTTP_REFERER': 'http://10.3.8.32:8001/add/hosts',
+ 'HTTP_UPGRADE_INSECURE_REQUESTS': '1',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36',
+ 'JAVA_HOME': '/usr/java/default',
+ 'LANG': 'en_US.UTF-8',
+ 'LD_LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LESSOPE[09/Sep/2016 10:16:19] "POST /add/hosts HTTP/1.1" 200 20632
+N': '|/usr/bin/lesspipe.sh %s',
+ 'LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LOADEDMODULES': '',
+ 'LOGNAME': 'root',
+ 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:',
+ 'MAIL': '/var/spool/mail/root',
+ 'MODULEPATH': '/usr/share/Modules/modulefiles:/etc/modulefiles',
+ 'MODULESHOME': '/usr/share/Modules',
+ 'OLDPWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services',
+ 'PATH': '/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/dell/srvadmin/bin:/opt/dell/srvadmin/sbin:/usr/java/default/bin:/root/bin',
+ 'PATH_INFO': u'/add/hosts',
+ 'PWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services/add',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '172.16.108.2',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'RUN_MAIN': 'true',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'SERVER_PORT': '8001',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.9',
+ 'SHELL': '/bin/bash',
+ 'SHLVL': '1',
+ 'SSH_AUTH_SOCK': '/tmp/ssh-xjagW43228/agent.43228',
+ 'SSH_CLIENT': '113.31.91.130 62682 22',
+ 'SSH_CONNECTION': '113.31.91.130 62682 223.202.94.83 22',
+ 'SSH_TTY': '/dev/pts/0',
+ 'TERM': 'linux',
+ 'TZ': 'UTC',
+ 'USER': 'root',
+ '_': '/usr/bin/nohup',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7f1d2ca221e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7f1d21494db8>,
+ 'wsgi.input': <socket._fileobject object at 0x7f1d1ed1ea50>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.168.43_load.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.168.43_cpu.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.168.43_check_alldisk.cfg
+<WSGIRequest
+path:/add/hosts,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'hardware': [u'no'], u'RENT-ALSG-010': [u'on'], u'service': [u'69'], u'idc': [u'39'], u'RENT-ALSG-009': [u'on'], u'RENT-ALSG-008': [u'on'], u'group': [u'35'], u'RENT-ALSG-003': [u'on'], u'RENT-ALSG-002': [u'on'], u'RENT-ALSG-004': [u'on'], u'RENT-ALSG-007': [u'on'], u'RENT-ALSG-006': [u'on']}>,
+COOKIES:{'sessionid': 'uqzro39q4ob1avqiumqx4p81v0scgvtx'},
+META:{'BASH_FUNC_module()': '() {  eval `/usr/bin/modulecmd bash $*`\n}',
+ 'CFLAG': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CONTENT_LENGTH': '174',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ 'CPPFLAGS': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CVS_RSH': 'ssh',
+ 'C_INCLUDE': ':/opt/ourpalm/apps/zeromq/include',
+ 'DJANGO_SETTINGS_MODULE': 'nagios.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'G_BROKEN_FILENAMES': '1',
+ 'HISTCONTROL': 'ignoredups',
+ 'HISTSIZE': '1000',
+ 'HOME': '/root',
+ 'HOSTNAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'zh-CN,zh;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=uqzro39q4ob1avqiumqx4p81v0scgvtx',
+ 'HTTP_HOST': '10.3.8.32:8001',
+ 'HTTP_ORIGIN': 'http://10.3.8.32:8001',
+ 'HTTP_REFERER': 'http://10.3.8.32:8001/add/hosts',
+ 'HTTP_UPGRADE_INSECURE_REQUESTS': '1',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36',
+ 'JAVA_HOME': '/usr/java/default',
+ 'LANG': 'en_US.UTF-8',
+ 'LD_LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LESSOPEN': '|/usr/bin/lesspipe.sh %s',
+ 'LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LOADEDMODULES': '',
+ 'LOGNAME': 'root',
+ 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:',
+ 'MAIL': '/var/spool/mail/root',
+ 'MODULEPATH': '/usr/share/Modules/modulefiles:/etc/modulefiles',
+ 'MODULESHOME': '/usr/share/Modules',
+ 'OLDPWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services',
+ 'PATH': '/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/dell/srvadmin/bin:/opt/dell/srvadmin/sbin:/usr/java/default/bin:/root/bin',
+ 'PATH_INFO': u'/add/hosts',
+ 'PWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services/add',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '172.16.108.2',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'RUN_MAIN': 'true',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'SERVER_PORT': '8001',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.9',
+ 'SHELL': '/bin/bash',
+ 'SHLVL': '1',
+ 'SSH_AUTH_SOCK': '/tmp/ssh-xjagW43228/agent.43228',
+ 'SSH_CLIENT': '113.31.91.130 62682 22',
+ 'SSH_CONNECTION': '113.31.91.130 62682 223.202.94.83 22',
+ 'SSH_TTY': '/dev/pts/0',
+ 'TERM': 'linux',
+ 'TZ': 'UTC',
+ 'USER': 'root',
+ '_': '/usr/bin/nohup',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7f1d2ca221e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7f1d21494db8>,
+ 'wsgi.input': <socket._fileobject object at 0x7f1d1ed1e6d0>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226_load.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226_cpu.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226_check_alldisk.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.223.2_load.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.223.2_cpu.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.223.2_check_alldisk.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.223.2.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.230.247_load.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.230.247_cpu.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.230.247_check_alldisk.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.223.2.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.230.247.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139_load.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139_cpu.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139_check_alldisk.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.223.2.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.230.247.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.229.18_load.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.229.18_cpu.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.229.18_check_alldisk.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.223.30_load.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.223.30_cpu.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.223.30_check_alldisk.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.223.2.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.230.247.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.229.18.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.223.30.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.223.2.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.230.247.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.229.18.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.155.194_load.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.155.194_cpu.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.155.194_check_alldisk.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.223.30.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.223.2.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hos[09/Sep/2016 10:17:04] "POST /add/hosts HTTP/1.1" 200 15676
+[09/Sep/2016 10:21:38] "GET /delete/batch HTTP/1.1" 200 2747
+[09/Sep/2016 10:21:42] "POST /delete/batch HTTP/1.1" 200 2747
+ttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.230.247.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.229.18.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.155.139.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.155.194.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.155.73_load.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.155.73_cpu.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.155.73_check_alldisk.cfg
+<QueryDict: {u'ip': [u'47.88.231.13']}>
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.231.13.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.231.13_check_alldisk.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.231.13_load.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.231.13_cpu.cfg
+<WSGIRequest
+path:/add/hosts,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {}>,
+COOKIES:{'sessionid': 'uqzro39q4ob1avqiumqx4p81v0scgvtx'},
+META:{'BASH_FUNC_module()': '() {  eval `/usr/bin/modulecmd bash $*`\n}',
+ 'CFLAG': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CONTENT_LENGTH': '',
+ 'CONTENT_TYPE': 'text/plain',
+ 'CPPFLAGS': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CVS_RSH': 'ssh',
+ 'C_INCLUDE': ':/opt/ourpalm/apps/zeromq/include',
+ 'DJANGO_SETTINGS_MODULE': 'nagios.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'G_BROKEN_FILENAMES': '1',
+ 'HISTCONTROL': 'ignoredups',
+ 'HISTSIZE': '1000',
+ 'HOME': '/root',
+ 'HOSTNAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, sdch',
+ 'HTTP_ACCEPT_LANGUAGE': 'zh-CN,zh;q=0.8',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=uqzro39q4ob1avqiumqx4p81v0scgvtx',
+ 'HTTP_HOST': '10.3.8.32:8001',
+ 'HTTP_REFERER': 'http://10.3.8.32:8001/delete/batch',
+ 'HTTP_UPGRADE_INSECURE_REQUESTS': '1',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36',
+ 'JAVA_HOME': '/usr/java/default',
+ 'LANG': 'en_US.UTF-8',
+ 'LD_LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LESSOPEN': '|/usr/bin/lesspipe.sh %s',
+ 'LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LOADEDMODULES': '',
+ 'LOGNAME': 'root',
+ 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar[09/Sep/2016 10:21:44] "GET /add/hosts HTTP/1.1" 200 16295
+=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:',
+ 'MAIL': '/var/spool/mail/root',
+ 'MODULEPATH': '/usr/share/Modules/modulefiles:/etc/modulefiles',
+ 'MODULESHOME': '/usr/share/Modules',
+ 'OLDPWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services',
+ 'PATH': '/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/dell/srvadmin/bin:/opt/dell/srvadmin/sbin:/usr/java/default/bin:/root/bin',
+ 'PATH_INFO': u'/add/hosts',
+ 'PWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services/add',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '172.16.108.2',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'GET',
+ 'RUN_MAIN': 'true',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'SERVER_PORT': '8001',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.9',
+ 'SHELL': '/bin/bash',
+ 'SHLVL': '1',
+ 'SSH_AUTH_SOCK': '/tmp/ssh-xjagW43228/agent.43228',
+ 'SSH_CLIENT': '113.31.91.130 62682 22',
+ 'SSH_CONNECTION': '113.31.91.130 62682 223.202.94.83 22',
+ 'SSH_TTY': '/dev/pts/0',
+ 'TERM': 'linux',
+ 'TZ': 'UTC',
+ 'USER': 'root',
+ '_': '/usr/bin/nohup',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7f1d2ca221e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7f1d21494db8>,
+ 'wsgi.input': <socket._fileobject object at 0x7f1d1ed46b50>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+<WSGIRequest
+path:/add/hosts,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'hardware': [u'no'], u'group': [u'35'], u'RENT-ALSG-005': [u'on'], u'idc': [u'33'], u'service': [u'69']}>,
+COOKIES:{'sessionid': 'uqzro39q4ob1avqiumqx4p81v0scgvtx'},
+META:{'BASH_FUNC_module()': '() {  eval `/usr/bin/modulecmd bash $*`\n}',
+ 'CFLAG': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CONTENT_LENGTH': '55',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ 'CPPFLAGS': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CVS_RSH': 'ssh',
+ 'C_INCLUDE': ':/opt/ourpalm/apps/zeromq/include',
+ 'DJANGO_SETTINGS_MODULE': 'nagios.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'G_BROKEN_FILENAMES': '1',
+ 'HISTCONTROL': 'ignoredups',
+ 'HISTSIZE': '1000',
+ 'HOME': '/root',
+ 'HOSTNAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'zh-CN,zh;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=uqzro39q4ob1avqiumqx4p81v0scgvtx',
+ 'HTTP_HOST': '10.3.8.32:8001',
+ 'HTTP_ORIGIN': 'http://10.3.8.32:8001',
+ 'HTTP_REFERER': 'http://10.3.8.32:8001/add/hosts',
+ 'HTTP_UPGRADE_INSECURE_REQUESTS': '1',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36',
+ 'JAVA_HOME': '/usr/java/default',
+ 'LANG': 'en_US.UTF-8',
+ 'LD_LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LESSOPEN': '|/usr/bin/lesspipe.sh %s',
+ 'LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LOADEDMODULES': '',
+ 'LOGNAME': 'root',
+ 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*[09/Sep/2016 10:22:08] "POST /add/hosts HTTP/1.1" 200 15676
+[09/Sep/2016 10:22:57] "GET /delete/batch HTTP/1.1" 200 2747
+[09/Sep/2016 10:23:00] "POST /delete/batch HTTP/1.1" 200 2747
+.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:',
+ 'MAIL': '/var/spool/mail/root',
+ 'MODULEPATH': '/usr/share/Modules/modulefiles:/etc/modulefiles',
+ 'MODULESHOME': '/usr/share/Modules',
+ 'OLDPWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services',
+ 'PATH': '/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/dell/srvadmin/bin:/opt/dell/srvadmin/sbin:/usr/java/default/bin:/root/bin',
+ 'PATH_INFO': u'/add/hosts',
+ 'PWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services/add',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '172.16.108.2',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'RUN_MAIN': 'true',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'SERVER_PORT': '8001',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.9',
+ 'SHELL': '/bin/bash',
+ 'SHLVL': '1',
+ 'SSH_AUTH_SOCK': '/tmp/ssh-xjagW43228/agent.43228',
+ 'SSH_CLIENT': '113.31.91.130 62682 22',
+ 'SSH_CONNECTION': '113.31.91.130 62682 223.202.94.83 22',
+ 'SSH_TTY': '/dev/pts/0',
+ 'TERM': 'linux',
+ 'TZ': 'UTC',
+ 'USER': 'root',
+ '_': '/usr/bin/nohup',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7f1d2ca221e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7f1d21494db8>,
+ 'wsgi.input': <socket._fileobject object at 0x7f1d1ed1e850>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/Softlayer-SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+Softlayer-SG
+/opt/ourpalm/www/nagios/etc/conf.d/Services/Softlayer-SG/QuanHuang98-TaiGuo/load/Softlayer-SG_QuanHuang98-TaiGuo_47.88.231.13_load.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/Softlayer-SG/QuanHuang98-TaiGuo/cpu/Softlayer-SG_QuanHuang98-TaiGuo_47.88.231.13_cpu.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/Softlayer-SG/QuanHuang98-TaiGuo/check_alldisk/Softlayer-SG_QuanHuang98-TaiGuo_47.88.231.13_check_alldisk.cfg
+<QueryDict: {u'ip': [u'47.88.222.226']}>
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226_check_alldisk.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/ntp_time/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226_ntp_time.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226_load.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226_cpu.cfg
+<QueryDict: {u'ip': [u'47.88.231.13']}>
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Hosts/Softlayer-SG/QuanHuang98-TaiGuo/Softlayer-SG_QuanHuang98-TaiGuo_47.88.231.13.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/Softlayer-SG/QuanHuang98-TaiGuo/check_alldisk/Softlayer[09/Sep/2016 10:23:11] "POST /delete/batch HTTP/1.1" 200 2747
+-SG_QuanHuang98-TaiGuo_47.88.231.13_check_alldisk.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/Softlayer-SG/QuanHuang98-TaiGuo/load/Softlayer-SG_QuanHuang98-TaiGuo_47.88.231.13_load.cfg
+remove file /opt/ourpalm/www/nagios/etc/conf.d/Services/Softlayer-SG/QuanHuang98-TaiGuo/cpu/Softlayer-SG_QuanHuang98-TaiGuo_47.88.231.13_cpu.cfg
+<WSGIRequest
+path:/add/hosts,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {}>,
+COOKIES:{'sessionid': 'uqzro39q4ob1avqiumqx4p81v0scgvtx'},
+META:{'BASH_FUNC_module()': '() {  eval `/usr/bin/modulecmd bash $*`\n}',
+ 'CFLAG': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CONTENT_LENGTH': '',
+ 'CONTENT_TYPE': 'text/plain',
+ 'CPPFLAGS': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CVS_RSH': 'ssh',
+ 'C_INCLUDE': ':/opt/ourpalm/apps/zeromq/include',
+ 'DJANGO_SETTINGS_MODULE': 'nagios.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'G_BROKEN_FILENAMES': '1',
+ 'HISTCONTROL': 'ignoredups',
+ 'HISTSIZE': '1000',
+ 'HOME': '/root',
+ 'HOSTNAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, sdch',
+ 'HTTP_ACCEPT_LANGUAGE': 'zh-CN,zh;q=0.8',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=uqzro39q4ob1avqiumqx4p81v0scgvtx',
+ 'HTTP_HOST': '10.3.8.32:8001',
+ 'HTTP_REFERER': 'http://10.3.8.32:8001/delete/batch',
+ 'HTTP_UPGRADE_INSECURE_REQUESTS': '1',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36',
+ 'JAVA_HOME': '/usr/java/default',
+ 'LANG': 'en_US.UTF-8',
+ 'LD_LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LESSOPEN': '|/usr/bin/lesspipe.sh %s',
+ 'LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LOADEDMODULES': '',
+ 'LOGNAME': 'root',
+ 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:',
+ 'MAIL': '/var/spool/mail/root',
+ 'MODULEPATH': '/usr/share/Modules/modulefiles:/etc/modulefiles',
+ 'MODULESHOME': '/usr/share/Modules',
+ 'OLDPWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services',
+ 'PATH': '/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/dell/srvadmin/bin:/opt/dell/srvadmin/sbin:/usr/java/default/bin:/root/bin',
+ 'PATH_INFO': u'/add/hosts',
+ 'PWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services/add',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '172.16.108.2',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'GET',
+ 'RUN_MAIN': 'true',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'SERVER_PORT': '8001',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.9',
+ 'SHELL': '/bin/bash',
+ 'SHLVL': '1',
+ 'SSH_AUTH_SOCK': '/tmp/ssh-xjagW43228/agent.43228',
+ 'SSH_CLIENT': '113.31.91.130 62682 22',
+ 'SSH_CONNECTION': '113.31.91.130 62682 223.202.94.83 22',
+ 'SSH_TTY': '/dev[09/Sep/2016 10:23:14] "GET /add/hosts HTTP/1.1" 200 16915
+/pts/0',
+ 'TERM': 'linux',
+ 'TZ': 'UTC',
+ 'USER': 'root',
+ '_': '/usr/bin/nohup',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7f1d2ca221e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7f1d21494db8>,
+ 'wsgi.input': <socket._fileobject object at 0x7f1d1ed1ead0>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+<WSGIRequest
+path:/add/hosts,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'group': [u'35'], u'service': [u'69'], u'hardware': [u'no'], u'RENT-ALSG-010': [u'on'], u'RENT-ALSG-005': [u'on'], u'idc': [u'39']}>,
+COOKIES:{'sessionid': 'uqzro39q4ob1avqiumqx4p81v0scgvtx'},
+META:{'BASH_FUNC_module()': '() {  eval `/usr/bin/modulecmd bash $*`\n}',
+ 'CFLAG': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CONTENT_LENGTH': '72',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ 'CPPFLAGS': '-I/opt/ourpalm/apps/zeromq/include/',
+ 'CVS_RSH': 'ssh',
+ 'C_INCLUDE': ':/opt/ourpalm/apps/zeromq/include',
+ 'DJANGO_SETTINGS_MODULE': 'nagios.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'G_BROKEN_FILENAMES': '1',
+ 'HISTCONTROL': 'ignoredups',
+ 'HISTSIZE': '1000',
+ 'HOME': '/root',
+ 'HOSTNAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'zh-CN,zh;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=uqzro39q4ob1avqiumqx4p81v0scgvtx',
+ 'HTTP_HOST': '10.3.8.32:8001',
+ 'HTTP_ORIGIN': 'http://10.3.8.32:8001',
+ 'HTTP_REFERER': 'http://10.3.8.32:8001/add/hosts',
+ 'HTTP_UPGRADE_INSECURE_REQUESTS': '1',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36',
+ 'JAVA_HOME': '/usr/java/default',
+ 'LANG': 'en_US.UTF-8',
+ 'LD_LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LESSOPEN': '|/usr/bin/lesspipe.sh %s',
+ 'LIBRARY_PATH': ':/opt/ourpalm/apps/zeromq/lib',
+ 'LOADEDMODULES': '',
+ 'LOGNAME': 'root',
+ 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:',
+ 'MAIL': '/var/spool/mail/root',
+ 'MODULEPATH': '/usr/share/Modules/modulefiles:/etc/modulefiles',
+ 'MODULESHOME': '/usr/share/Modules',
+ 'OLDPWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services',
+ 'PATH': '/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/dell/srvadmin/bin:/opt/dell/srvadmin/sbin:/usr/java/default/bin:/root/bin',
+ 'PATH_INFO': u'/add/hosts',
+ 'PWD': '/usr/lib/python2.6/site-packages/nagios/MonitorManager/nagios/web/nagiosadmin/add/services/add',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '172.16.108.2',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'RUN_MAIN': 'true',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': 'ZQ-SE-377.h.zqdaemon.com',
+ 'SERVER_PORT':[09/Sep/2016 10:23:27] "POST /add/hosts HTTP/1.1" 200 15676
+[09/Sep/2016 10:54:29] "GET /add/redis HTTP/1.1" 200 12246
+[09/Sep/2016 10:54:53] "POST /add/redis HTTP/1.1" 200 12246
+[09/Sep/2016 10:55:59] "POST /add/redis HTTP/1.1" 500 97866
+[09/Sep/2016 10:56:18] "POST /add/redis HTTP/1.1" 200 12246
+[09/Sep/2016 10:57:37] "POST /add/redis HTTP/1.1" 200 12246
+[09/Sep/2016 10:58:17] "POST /add/redis HTTP/1.1" 200 12246
+[09/Sep/2016 11:00:04] "POST /add/redis HTTP/1.1" 500 97866
+ '8001',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.9',
+ 'SHELL': '/bin/bash',
+ 'SHLVL': '1',
+ 'SSH_AUTH_SOCK': '/tmp/ssh-xjagW43228/agent.43228',
+ 'SSH_CLIENT': '113.31.91.130 62682 22',
+ 'SSH_CONNECTION': '113.31.91.130 62682 223.202.94.83 22',
+ 'SSH_TTY': '/dev/pts/0',
+ 'TERM': 'linux',
+ 'TZ': 'UTC',
+ 'USER': 'root',
+ '_': '/usr/bin/nohup',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7f1d2ca221e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7f1d21494db8>,
+ 'wsgi.input': <socket._fileobject object at 0x7f1d1ed1e850>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226_load.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226_cpu.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226_check_alldisk.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Hosts/ALY_SG/QuanHuang98-TaiGuo/ALY_SG_QuanHuang98-TaiGuo_47.88.222.226.cfg  Already exists..
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Templates/ALY_SG_QuanHuang98-TaiGuo_hosttemplate.cfg
+ALY_SG
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/load/ALY_SG_QuanHuang98-TaiGuo_47.88.231.13_load.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/cpu/ALY_SG_QuanHuang98-TaiGuo_47.88.231.13_cpu.cfg
+/opt/ourpalm/www/nagios/etc/conf.d/Services/ALY_SG/QuanHuang98-TaiGuo/check_alldisk/ALY_SG_QuanHuang98-TaiGuo_47.88.231.13_check_alldisk.cfg
+[09/Sep/2016 11:01:07] "POST /add/redis HTTP/1.1" 200 12246

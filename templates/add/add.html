@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+  <div class="container">
+    <ol class="breadcrumb">
+      <li><a href="/add/hosts">Host监控</a></li>
+      <li><a href="/add/mysql">Mysql监控</a></li>
+      <li><a href="/add/mongo">Mongo监控</a></li>
+      <li><a href="/add/redis">Redis监控</a></li>
+      <li><a href="/add/tcp">Tcp监控</a></li>
+      <li><a href="/add/omsa">硬件监控</a></li>
+    </ol>
+    {% block manage %}
+    {% endblock %}
+</div> <!-- /container -->
+{% endblock %}
